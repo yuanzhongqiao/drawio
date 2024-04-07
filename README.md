@@ -1,61 +1,29 @@
-About
------
-draw.io, this project, is a configurable diagramming/whiteboarding visualization application. draw.io is jointly owned and developed by JGraph Ltd and draw.io AG.
-
-As well as running this project, we run a production-grade deployment of the diagramming interface at https://app.diagrams.net.
-
-License
------------------
-
-The source code authored by us in this repo is licensed under the Apache v2. The full core is open source, but the are some boundary functions that are difficult to publish in a way we can maintain them.
-
-The JGraph provided icons and diagram templates are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Additional terms may also apply where the icons are originally defined by a third-party copyright holder. We have checked in all cases that the original license allows use in this project. Also see the terms for using the draw.io logo below.
-
-Additional minified JavaScript files and Java libraries are used in this project. All of the licenses are deemed compatible with the Apache 2.0, nothing is GPL or AGPL, due dilgence is performed on all third-party code.
-
-We make no copyright claim on the content you create with this software, regardless of the copyright of individual icons used in such content.
-
-Scope of the Project
---------------------
-
-draw.io is a diagramming or whiteboarding application, depending on which theme is selected. It is not an SVG editing app, the SVG export is designed only for embedding in web pages, not for further editing in other tools.
-
-The application is designed to be used largely as-is. draw.io is not suitable as a framework for building other products from. For this try either [Tldraw](https://github.com/tldraw/tldraw) or [Excalidraw](https://github.com/excalidraw/excalidraw).
-
-Note, in particular, we don't have support for collaborative editing in this project. If this is important, one of the projects above is likely a better choice.
-
-If you are using a draw.io project/product and have issues or questions about the editor itself, the issue tracker and discussion in this GitHub project are likely a good place to look.
-
-Running
--------
-
-One way to run draw.io is to fork this project, [publish the master branch to GitHub pages](https://help.github.com/categories/github-pages-basics/) and the [pages sites](https://jgraph.github.io/drawio/src/main/webapp/index.html) will have the full editor functionality (sans the integrations).
-
-Another way is to use [the recommended Docker project](https://github.com/jgraph/docker-drawio) or to download [draw.io Desktop](https://get.diagrams.net).
-
-The full packaged .war of the client and servlets is built when the project is tagged and available on the [releases page](https://github.com/jgraph/draw.io/releases).
-
-Supported Browsers
-------------------
-
-draw.io supports Chrome 70+, Firefox 70+, Safari 11+, Opera 50+, Native Android browser 7x+, the default browser in the current and previous major iOS versions (e.g. 11.2.x and 10.3.x) and Edge 79+.
-
-This project is not open-contribution
-------------------------------------------------------
-
-draw.io is also closed to contributions. We follow a development process compliant with our SOC 2 Type II process. We do not have a mechanism where we can accept contributions from non-staff members.
-
-draw.io is not suitable as a framework for building other products from. For this try either [Tldraw](https://github.com/tldraw/tldraw) or [Excalidraw](https://github.com/excalidraw/excalidraw).
-
-Logo and trademark usage
-------------------------
-
-draw.io is a registered EU trademark, #018062448
-
-Do not use the draw.io name or any draw.io logo in a way that suggests you are JGraph, your offering or project is by JGraph, or that JGraph is endorsing you or your offering or project.
-
-Do not use any draw.io logo as the icon or logo for your business/organization, offering, project, domain name, social media account, or website.
-
-Do not modify the permitted draw.io logos, including changing the color, dimensions, or combining with other words or design elements.
-
-Do not use JGraph trademarks or logos without JGraph’s prior written permission.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于</font></font></h2><a id="user-content-about" class="anchor" aria-label="永久链接：关于" href="#about"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io，这个项目，是一个可配置的图表/白板可视化应用程序。 draw.io 由 JGraph Ltd 和 draw.io AG 共同拥有和开发。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了运行该项目之外，我们还在</font></font><a href="https://app.diagrams.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://app.diagrams.net</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上运行图表界面的生产级部署。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h2><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们在此存储库中编写的源代码已获得 Apache v2 的许可。完整的核心是开源的，但有些边界功能很难以我们可以维护的方式发布。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JGraph 提供的图标和图表模板已获得</font></font><a href="https://creativecommons.org/licenses/by/4.0/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CC BY 4.0</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可。如果图标最初由第三方版权所有者定义，则附加条款也可能适用。我们在所有情况下都检查了原始许可证是否允许在该项目中使用。另请参阅下面的使用 draw.io 徽标的条款。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此项目中使用了其他缩小的 JavaScript 文件和 Java 库。所有许可证均被视为与 Apache 2.0 兼容，没有任何 GPL 或 AGPL，对所有第三方代码都进行了尽职调查。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们不对您使用本软件创建的内容提出版权主张，无论此类内容中使用的各个图标的版权如何。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目范围</font></font></h2><a id="user-content-scope-of-the-project" class="anchor" aria-label="永久链接：项目范围" href="#scope-of-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io 是一个图表或白板应用程序，具体取决于选择的主题。它不是 SVG 编辑应用程序，SVG 导出仅设计用于嵌入网页，而不是用于在其他工具中进一步编辑。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该应用程序设计为主要按原样使用。 draw.io 不适合作为构建其他产品的框架。为此，请尝试</font></font><a href="https://github.com/tldraw/tldraw"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tldraw</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/excalidraw/excalidraw"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Excalidraw</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请特别注意，我们在此项目中不支持协作编辑。如果这很重要，那么上述项目之一可能是更好的选择。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在使用 draw.io 项目/产品，并且对编辑器本身有疑问或疑问，那么此 GitHub 项目中的问题跟踪器和讨论可能是一个不错的查看位置。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">跑步</font></font></h2><a id="user-content-running" class="anchor" aria-label="永久链接： 跑步" href="#running"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行draw.io的一种方法是分叉这个项目，</font></font><a href="https://help.github.com/categories/github-pages-basics/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将主分支发布到GitHub页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font><a href="https://jgraph.github.io/drawio/src/main/webapp/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面站点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将具有完整的编辑器功能（没有集成）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另一种方法是使用</font></font><a href="https://github.com/jgraph/docker-drawio"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推荐的 Docker 项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或下载</font></font><a href="https://get.diagrams.net" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io Desktop</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当项目被标记并在</font></font><a href="https://github.com/jgraph/draw.io/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发布页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上可用时，就会构建客户端和 servlet 的完整打包 .war 。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的浏览器</font></font></h2><a id="user-content-supported-browsers" class="anchor" aria-label="永久链接：支持的浏览器" href="#supported-browsers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io 支持 Chrome 70+、Firefox 70+、Safari 11+、Opera 50+、原生 Android 浏览器 7x+、当前和以前主要 iOS 版本（例如 11.2.x 和 10.3.x）中的默认浏览器以及 Edge 79+ 。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目不是开放贡献的</font></font></h2><a id="user-content-this-project-is-not-open-contribution" class="anchor" aria-label="永久链接：该项目不是开放贡献的" href="#this-project-is-not-open-contribution"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io 也不再接受贡献。我们遵循符合 SOC 2 Type II 流程的开发流程。我们没有接受非工作人员捐款的机制。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io 不适合作为构建其他产品的框架。为此，请尝试</font></font><a href="https://github.com/tldraw/tldraw"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tldraw</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="https://github.com/excalidraw/excalidraw"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Excalidraw</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">标志和商标的使用</font></font></h2><a id="user-content-logo-and-trademark-usage" class="anchor" aria-label="永久链接：徽标和商标的使用" href="#logo-and-trademark-usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">draw.io 是欧盟注册商标，#018062448</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请勿使用draw.io 名称或任何draw.io 徽标来暗示您是JGraph、您的产品或项目由JGraph 提供、或者JGraph 认可您或您的产品或项目。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请勿使用任何draw.io徽标作为您的企业/组织、产品、项目、域名、社交媒体帐户或网站的图标或徽标。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请勿修改允许的draw.io 徽标，包括更改颜色、尺寸或与其他文字或设计元素组合。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">未经 JGraph 事先书面许可，请勿使用 JGraph 商标或徽标。</font></font></p>
+</article></div>
